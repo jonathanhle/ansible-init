@@ -37,7 +37,7 @@
   tags:
     - roles
 
-- name: Create master playbook
-  template: src=master.j2 dest={{ project_dir }}/master.yml
+- name: Create site playbook
+  template: src=site.j2 dest={{ project_dir }}/site.yml
   tags:
-    - master
+    - site
