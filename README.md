@@ -53,7 +53,7 @@ To run on a remote server, remove `--connection=local` from the CLI and change t
     ├── database.yml
     ├── group_vars
     ├── host_vars
-    ├── master.yml
+    ├── site.yml
     ├── production
     ├── roles
     │   ├── database
@@ -79,7 +79,7 @@ To run on a remote server, remove `--connection=local` from the CLI and change t
 
 ### Files
 
-#### master.yml
+#### site.yml
 
     ---
     # master playbook
